@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'manga';
+    src: url('fontes/Manga Style.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'chess';
+    src: url('fontes/ChessType.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pecachess';
+    src: url('fontes/CHEQ_TT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+}
+body{
+    text-align: justify;
+    background-image: linear-gradient(to top,#eedcf8,#f9f1fd,#dab8f1 );
+    background-attachment: fixed;
+   
+    margin: 0px;
+}
+header{
+    margin: 20px;
+    padding: 20px;
+}
+main{
+    margin: 20px;
+    padding: 20px;
+}
+h1{
+    font-family: 'work sans',sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: #61599E;
+    font-weight: bold;
+}
+h2{
+    font-family: 'work sans',sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: #61599E;
+    font-weight: bold;
+}
+h3{
+    font-family: 'work sans',sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: #61599E;
+    font-weight: bold;
+}
+p{
+    font-family: 'work sans', sans-serif;
+    font-size: 1.3em;
+    font-weight: normal;
+    text-indent: 30px;
+}
+footer{
+    background-color: #61599E;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'work sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+
+    margin: 0px;
+
+    padding: 10px;
+}
+#video,.link{
+    text-align: center;
+    }
+#imgvideo{
+    border: 7px solid whitesmoke;
+    border-radius: 30px;
+}
+#foto{
+    border: 7px solid whitesmoke;
+    border-radius: 30px;
+}
+#imagem{
+    text-align: center;
+}
+#imagem > p{
+    display: none; 
+}
+#imagem:hover > p{
+    display: block;
+    background-color: #61599E;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+}
+ul{
+    font-family: 'work sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+a{
+    font-family: 'work sans', sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    color: #690101;
+    text-decoration: none;
+}
+a:visited{
+    color: #79141498;
+}
+#chesscom{
+    font-family: 'work sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+}
+#chesscom:active{
+    color: #61599E;
+}
+#chesscom:hover{
+    color: red;
+}
+#chesscom::after{
+    content: ' (site seguro)';
+    color: #61599E;
+}
+#ul1{
+    font-family: 'work sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+.peças{
+text-align: center;
+}
+mark{
+    background-color: #dab8f1;
+}
+
+nav{
+    text-align: center;
+}
+nav > p{
+    display: none;
+    margin: 1px 1px 1px 1px;
+    padding: 1px 20px 1px 1px;
+}
+nav:hover > p{
+    display: inline-block;
+    border: solid #61599E;
+    border-radius: 20px;
+}
+nav > #modogame{
+    display: none;
+}
+nav:hover > #menugame{
+    display: none;
+}
+nav > #modogame{
+    display: none;
+}
+nav:hover > #modogame{
+    display: block;
+    color: #dab8f1;
+    background-color: #61599E;
+    border: 3px dashed #dab8f1;
+    border-radius: 20px;
+}
+
+.playzone{
+    font-family: 'manga',Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+
+}
+#tabuleiro{
+    font-family: 'pecachess',Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+#playzoneaviso{
+    font-family: 'Chess',Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+#explicatabuleiro{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
+#explicatabuleiro:hover > p{
+    display: block;
+}
+#explicatabuleiro > p{
+    display: none;
+}
+#explicatabuleiro:hover > h3{
+   display: none;
+}
+#explicatabuleiro > h1{
+    display: none;
+}
+#explicatabuleiro:hover > h1{
+    display: block;
+}
